@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Opens Sans";
+  }
+}
+
+@layer utilities {
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  position: absolute;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212b37;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
