@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   FaUser,
   FaPhone,
@@ -80,7 +79,7 @@ function App() {
         </div>
         <div className="absolute left-[67px] top-[14px] z-[4] h-[230px] w-[230px] overflow-hidden rounded-full bg-[#ff1f2f] ">
           <div className="absolute left-[10px] top-[10px] h-[210px] w-[210px] overflow-hidden rounded-full bg-white ">
-            <div className="absolute left-[10px] top-[10px] h-[190px] w-[190px] overflow-hidden rounded-full bg-myself bg-cover bg-[top_left_-60px] bg-no-repeat "></div>
+            <div className="absolute left-[10px] top-[10px] h-[190px] w-[190px] scale-125 overflow-hidden rounded-full bg-myself bg-cover bg-no-repeat "></div>
           </div>
         </div>
       </header>
